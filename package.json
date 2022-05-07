@@ -1,0 +1,17 @@
+{
+  "name": "healinglife",
+  "version": "1.0.0",
+  "description": "healinglife_homepage",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql": "^2.18.1",
+    "sanitize-html": "^2.6.1"
+  }
+}

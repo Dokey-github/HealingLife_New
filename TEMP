@@ -1,0 +1,149 @@
+// var express = require('express');
+// var _app = express();
+// // _app.use('/style', express.static(__dirname + '/style'));
+// _app.use(express.static('public'));
+
+
+
+
+
+// var app = http.createServer(function (request, response) {
+
+
+//   var _url = request.url;
+//   // index.html의 변수화    <script src="active.js"></script> 해제 상태
+//   var html = `
+// <!DOCTYPE html>
+// <html lang="en">
+
+// <head>
+//     <meta charset="UTF-8">
+//     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+//     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//     <title>Welcome To Healing Life</title>
+//     <link rel="stylesheet" type="text/css" href="css/style.css">
+// </head>
+
+
+
+// <body>
+
+//     <h1 class="title"><a class="title" href="index.html">Healing Life</a></h1>
+
+
+//     <div class="header">
+
+//         <a class="brand_Logo" href="index.html">
+//             <img class="brand_Logo" src="HealingLife_Logo_YellowGreen.png" alt="대표홈페이지">
+//         </a>
+
+
+
+//         <div class="gnb">
+//             <ul class="navbar-nav">
+//                 <li>
+//                     <a>
+//                         회사소개
+//                     </a>
+//                 </li>
+//                 <li>
+//                     <a>
+//                         주요사업영역
+//                     </a>
+//                 </li>
+//                 <li>
+//                     <a>
+//                         구축실적
+//                     </a>
+//                 </li>
+//                 <li>
+//                     <a>
+//                         홍보센터
+//                     </a>
+//                 </li>
+//                 <li>
+//                     <a>
+//                         고객센터
+//                     </a>
+//                 </li>
+//             </ul>
+//         </div>
+
+
+
+//         <div class="community">
+//             <ul class="float-right">
+//                 <li>
+//                     <a href="">LOGIN</a>
+//                 </li>
+//                 <li>
+//                     <a href="">인트라넷</a>
+//                 </li>
+//                 <li>
+//                     <a href="">개인정보처리방침</a>
+//                 </li>
+//             </ul>
+//         </div>
+
+//     </div>
+
+
+
+//     <div class="sub-top">
+//         <div class="container">
+//             <div class="tit">
+//                 <h2>
+//                     <span id="sub_title_HongBo">홍보센터</span>
+//                 </h2>
+//                 <span class="copy">Healing Life는 프로페셔녈한 자세와 진정성으로 고객의 마음을 열어 다가가도록 하겠습니다.</span>
+//             </div>
+//         </div>
+//     </div> <!-- <sub-top div> -->
+
+//     <div class="list">
+       
+//         <div class="row">
+//             <h3 class="row_title">
+//                 TESTING TITLE
+//             </h3>
+//             <div class="row_description">
+//                 <p>
+//                   HAPPY TESTING 12345
+//                 </p>
+//             </div>
+//             <div class="row_date">
+//                 2/12/2022 3:38PM
+//             </div>
+//         </div> <!-- row div -->
+//     </div><!-- list div -->
+
+//     <div id="div_chatshow">
+//         <a class="btn_open" href="tempWrite.html">
+//             <img src="btn_open.png">
+//         </a>
+//     </div>
+
+ 
+// </body>
+
+
+// </html>
+//   `;
+
+//   if (request.url == '/') {
+//     _url = '/index.html';
+//   }
+//   if (request.url == '/favicon.ico') {
+//     response.writeHead(404);
+//     response.end();
+//     return;
+//   }
+
+//   response.writeHead(200);
+//   // response.end(fs.readFileSync(__dirname + _url));
+//   response.end(html);
+// });
+
+// connection.end(); // mysql 종료
+// app.listen(3000);
+

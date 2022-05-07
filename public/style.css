@@ -1,0 +1,369 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family:Arial, Helvetica, sans-serif;     */
+    font-family: 'Nanum Gothic', 'Helvetica', sans-serif;
+    letter-spacing: -0.03rem;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    /* margin-block-start: 1em;
+     margin-block-end: 1em;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px; */
+}
+
+/* li {
+    display: list-item;
+    text-align:inherit;
+} */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.brand_Logo {
+
+    /* position: absolute; */
+    position: relative;
+    width: 165px;
+    height: 40px;
+    top: 10%;
+    margin-left: 2%;
+
+
+}
+
+.float-right {
+    float: right;
+    margin-top: 4%;
+    margin-right: 1.4rem;
+
+}
+
+.float-right>li>a {
+    /* text-decoration: none; */
+    color: #a1a1a1;
+    position: relative;
+    display: inline-block;
+    padding: 0.25rem 0.375rem;
+    font-size: 0.87rem;
+    line-height: 1.5rem;
+    /* margin: 1rem 0; */
+    /* top: 6px; */
+    /* transition: 0.3s; */
+}
+
+.float-right>li>a:visited {
+    text-decoration: none;
+}
+
+.float-right>li::after {
+    /* content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 1px;
+    height: 10px;
+    margin-top: -5px;
+    background-color:black; */
+    content: '';
+    position: absolute;
+    /* top: 10.6%; */
+    top: 39%;
+
+
+    width: 0.8px;
+    height: 10px;
+
+
+
+    margin: auto 0;
+    background-color: darkgray;
+
+
+}
+
+.float-right>li:last-child::after {
+    display: none;
+}
+
+.float-right>li {
+    float: left;
+}
+
+.navbar-nav {
+    margin-left: 1.3rem;
+}
+
+.navbar-nav>li {
+    /* float: left; */
+    display: table-cell;
+    padding-left: 2.9rem;
+    /* padding-right: 1rem; */
+    /* padding: 1rem; */
+    /* padding: 1.75rem 1.5rem; */
+}
+
+.navbar-nav>li>a {
+    font-size: 1.125rem;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* width: 100%; */
+    /* align-items: center; */
+}
+
+
+.gnb {
+    display: table;
+    font-weight: bold;
+    color: dimgrey;
+    /* margin-right: auto; */
+    /* position: static; */
+    /* width: auto; */
+    /* margin: 0 auto; */
+
+}
+
+/*========================================*/
+/*============sub top============*/
+.sub-top {
+    display: block;
+    background-image: url('/sub-top_image.jpg');
+    padding: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 1.2rem;
+    
+}
+
+#sub_title_HongBo {
+    font-size: 2.5rem;
+}
+
+.tit {
+    font-weight: bold;
+    color: slategrey;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row{
+    background-image: url('/list-color.jpg');
+    padding: 2rem;
+    padding-top: 1rem;
+    max-width: 1000px;
+    max-height: 159px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    color:dimgray;
+}
+
+.row_title, .row_description{
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*========================================*/
+/* .BGX {
+     float: right;
+ } */
+
+.title {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(243, 224, 224);
+
+    display: none;
+
+
+    /* }
+
+ .Menu, .Rglass, .Xmark {
+     cursor: pointer; */
+
+}
+
+
+/*================chatBox========================*/
+
+
+
+#div_chatshow{
+    float: right;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: auto;
+    background: none;
+    /* display: none; */
+}
+.btn_open{
+    cursor: pointer;
+    
+}
+
+
+/*========================================*/
+
+/* #div_writearea{
+    float: right;
+    position: fixed;
+    right: 8px;
+} */
+/* .write_area{
+    padding: 2rem;
+    padding-top: 1rem;
+    max-width: 1000px;
+    max-height: 159px;
+    margin-right: auto;
+    margin-left: auto
+}
+.title_area{
+    display: block;
+    margin-bottom: 10px;
+}
+.description_area{
+    display: block;
+}
+.input_title{
+    width: 35rem;
+} */
+
+
+/*=============wrtieList.html===========================*/
+
+
+.write_area{
+    display: flex; 
+    height: 10rem; 
+    width: 50rem; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.left_text{
+    margin-right: 5px; 
+    width: 10rem;
+    color:lightslategray;
+}
+.left_title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.left_description{
+    font-weight: bold;
+}
+.input_boxes{
+    /* border: 3px solid grey;  */
+    width: 43rem; 
+    height: 24rem;
+}
+.inner_boxes{
+    margin-left: 0.5px;
+}
+.input_title{
+    margin-bottom: 5px;
+}
+#title_box, #title_box_read{
+    width: 40rem;
+}
+#title_box, #descript_box{
+    font-family:'Courier New', Courier, monospace;
+    color:dimgray;
+}
+#title_box:focus{
+    /* outline: 2px solid;
+    outline-color:paleturquoise; */
+    outline: none;
+}
+#title_box:placeholder-shown{
+    font-family:'Courier New', Courier, monospace;
+}
+#descript_box, #descript_box_read{
+    resize: none;
+    width: 40rem; 
+    height: 20rem;
+    /* font-family: inherit;
+    font-size: inherit; */
+    /* font-family:'Courier New', Courier, monospace; */
+}
+/* #title_box_read{
+    border: solid 1px gray;
+} */
+#title_box_read, #descript_box_read{
+    border: solid 0.1px gray;
+    border-radius: 5px;
+    background-color: ivory;
+    font-family:'Courier New', Courier, monospace;   
+    /* font-weight: bold; */
+    color:dimgray;
+}
+#descript_box:focus{
+    /* outline: 2px solid paleturquoise; */
+    outline: none;
+}
+#descript_box:placeholder-shown{
+    /* font-weight: bold; */
+    font-family:'Courier New', Courier, monospace;
+}
+.buttons{
+    display: flex; margin-left: 16.4rem;
+}
+#cancel_button,
+#delete_button, #list_button{
+    margin-right: 5px;
+}
+#cancel_button, #ok_button, 
+#delete_button, #list_button, #modify_button{
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color:white;
+    color:dimgray;
+}
+#cancel_button:hover,#ok_button:hover,
+#delete_button:hover, #list_button:hover, #modify_button:hover {
+    color: white;
+    background-color: dimgray;
+    cursor: pointer;
+}
+/* #ok_button:hover{
+    color: white;
+    background-color: dimgray;
+    cursor: pointer;
+} */
+
+/*readScript*/
+.buttons_read{
+    display: flex; margin-left: 14.5rem;
+}
+
